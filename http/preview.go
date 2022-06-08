@@ -10,8 +10,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/shmelll/filebrowser-master/files"
-	"github.com/shmelll/filebrowser-master/img"
+	"github.com/shmelll/filebrowser-master-master/files"
+	"github.com/shmelll/filebrowser-master-master/img"
 )
 
 /*

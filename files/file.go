@@ -19,8 +19,8 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/shmelll/filebrowser-master/errors"
-	"github.com/shmelll/filebrowser-master/rules"
+	"github.com/shmelll/filebrowser-master-master/errors"
+	"github.com/shmelll/filebrowser-master-master/rules"
 )
 
 // FileInfo describes a file.
@@ -70,7 +70,6 @@ func NewFileInfo(opts FileOptions) (*FileInfo, error) {
 	if opts.Expand {
 		if file.IsDir {
 			if err := file.readListing(opts.Checker, opts.ReadHeader); err != nil { //nolint:govet
-				return nil, err
 			}
 			return file, nil
 		}

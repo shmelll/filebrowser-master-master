@@ -21,14 +21,14 @@ import (
 	v "github.com/spf13/viper"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/shmelll/filebrowser-master/auth"
-	"github.com/shmelll/filebrowser-master/diskcache"
-	"github.com/shmelll/filebrowser-master/frontend"
-	fbhttp "github.com/shmelll/filebrowser-master/http"
-	"github.com/shmelll/filebrowser-master/img"
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/storage"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/auth"
+	"github.com/shmelll/filebrowser-master-master/diskcache"
+	"github.com/shmelll/filebrowser-master-master/frontend"
+	fbhttp "github.com/shmelll/filebrowser-master-master/http"
+	"github.com/shmelll/filebrowser-master-master/img"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/storage"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 var (
@@ -314,7 +314,7 @@ func quickSetup(flags *pflag.FlagSet, d pythonData) {
 	set := &settings.Settings{
 		Key:              generateKey(),
 		Signup:           false,
-		CreateUserDir:    false,
+		CreateUserDir:    true,
 		UserHomeBasePath: settings.DefaultUsersHomeBasePath,
 		Defaults: settings.UserDefaults{
 			Scope:       ".",

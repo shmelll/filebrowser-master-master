@@ -14,9 +14,9 @@ import (
 	"github.com/shirou/gopsutil/v3/disk"
 	"github.com/spf13/afero"
 
-	"github.com/shmelll/filebrowser-master/errors"
-	"github.com/shmelll/filebrowser-master/files"
-	"github.com/shmelll/filebrowser-master/fileutils"
+	"github.com/shmelll/filebrowser-master-master/errors"
+	"github.com/shmelll/filebrowser-master-master/files"
+	"github.com/shmelll/filebrowser-master-master/fileutils"
 )
 
 var resourceGetHandler = withUser(func(w http.ResponseWriter, r *http.Request, d *data) (int, error) {

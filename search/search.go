@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/shmelll/filebrowser-master/rules"
+	"github.com/shmelll/filebrowser-master-master/rules"
 )
 
 type searchOptions struct {

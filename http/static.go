@@ -12,10 +12,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/shmelll/filebrowser-master/auth"
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/storage"
-	"github.com/shmelll/filebrowser-master/version"
+	"github.com/shmelll/filebrowser-master-master/auth"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/storage"
+	"github.com/shmelll/filebrowser-master-master/version"
 )
 
 func handleWithStaticData(w http.ResponseWriter, _ *http.Request, d *data, fSys fs.FS, file, contentType string) (int, error) {

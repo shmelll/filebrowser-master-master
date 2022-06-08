@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/shmelll/filebrowser-master/auth"
-	"github.com/shmelll/filebrowser-master/errors"
-	"github.com/shmelll/filebrowser-master/settings"
+	"github.com/shmelll/filebrowser-master-master/auth"
+	"github.com/shmelll/filebrowser-master-master/errors"
+	"github.com/shmelll/filebrowser-master-master/settings"
 )
 
 func init() {

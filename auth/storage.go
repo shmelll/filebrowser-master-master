@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // StorageBackend is a storage backend for auth storage.

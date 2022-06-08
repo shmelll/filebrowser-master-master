@@ -1,4 +1,4 @@
-module github.com/shmelll/filebrowser-master/tools
+module github.com/shmelll/filebrowser-master-master/tools
 
 go 1.18
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/shmelll/filebrowser-master/version"
+	"github.com/shmelll/filebrowser-master-master/version"
 )
 
 func init() {

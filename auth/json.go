@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // MethodJSONAuth is used to identify json auth.

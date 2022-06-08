@@ -3,7 +3,7 @@ package auth
 import (
 	"net/http"
 
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // Auther is the authentication interface.

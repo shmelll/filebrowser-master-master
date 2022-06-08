@@ -30,7 +30,7 @@ func (s *Settings) MakeUserDir(username, userScope, serverRoot string) (string, 
 		userScope = path.Join(s.UserHomeBasePath, username)
 	}
 
-	userScope = path.Join("/", userScope)
+	userScope = path.Join("/main", userScope) //here main
 
 	fs := afero.NewBasePathFs(afero.NewOsFs(), serverRoot)
 	if err := fs.MkdirAll(userScope, os.ModePerm); err != nil {

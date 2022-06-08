@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/shmelll/filebrowser-master/errors"
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/errors"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // MethodProxyAuth is used to identify no auth.

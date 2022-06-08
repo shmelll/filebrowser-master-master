@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"strings"
 
-	"github.com/shmelll/filebrowser-master/rules"
+	"github.com/shmelll/filebrowser-master-master/rules"
 )
 
 const DefaultUsersHomeBasePath = "/users"

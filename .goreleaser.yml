@@ -7,7 +7,7 @@ build:
   env:
     - CGO_ENABLED=0
   ldflags:
-    - -s -w -X github.com/shmelll/filebrowser-master/version.Version={{ .Version }} -X github.com/shmelll/filebrowser-master/version.CommitSHA={{ .ShortCommit }}
+    - -s -w -X github.com/shmelll/filebrowser-master-master/version.Version={{ .Version }} -X github.com/shmelll/filebrowser-master-master/version.CommitSHA={{ .ShortCommit }}
   main: main.go
   binary: filebrowser
   goos:

@@ -11,10 +11,10 @@ import (
 	"github.com/pelletier/go-toml/v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/shmelll/filebrowser-master/auth"
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/storage"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/auth"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/storage"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 type oldDefs struct {

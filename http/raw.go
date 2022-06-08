@@ -11,9 +11,9 @@ import (
 
 	"github.com/mholt/archiver/v3"
 
-	"github.com/shmelll/filebrowser-master/files"
-	"github.com/shmelll/filebrowser-master/fileutils"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/files"
+	"github.com/shmelll/filebrowser-master-master/fileutils"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 func slashClean(name string) string {

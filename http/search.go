@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/shmelll/filebrowser-master/search"
+	"github.com/shmelll/filebrowser-master-master/search"
 )
 
 var searchHandler = withUser(func(w http.ResponseWriter, r *http.Request, d *data) (int, error) {

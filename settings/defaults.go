@@ -1,8 +1,8 @@
 package settings
 
 import (
-	"github.com/shmelll/filebrowser-master/files"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/files"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // UserDefaults is a type that holds the default values

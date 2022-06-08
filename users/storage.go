@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shmelll/filebrowser-master/errors"
+	"github.com/shmelll/filebrowser-master-master/errors"
 )
 
 // StorageBackend is the interface to implement for a users storage.

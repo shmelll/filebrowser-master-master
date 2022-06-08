@@ -7,11 +7,11 @@ import (
 
 	"github.com/tomasen/realip"
 
-	"github.com/shmelll/filebrowser-master/rules"
-	"github.com/shmelll/filebrowser-master/runner"
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/storage"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/rules"
+	"github.com/shmelll/filebrowser-master-master/runner"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/storage"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 type handleFunc func(w http.ResponseWriter, r *http.Request, d *data) (int, error)

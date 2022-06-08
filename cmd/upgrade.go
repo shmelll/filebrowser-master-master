@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/shmelll/filebrowser-master/storage/bolt/importer"
+	"github.com/shmelll/filebrowser-master-master/storage/bolt/importer"
 )
 
 func init() {

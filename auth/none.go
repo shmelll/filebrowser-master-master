@@ -3,8 +3,8 @@ package auth
 import (
 	"net/http"
 
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // MethodNoAuth is used to identify no auth.

@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/afero"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/shmelll/filebrowser-master/files"
-	"github.com/shmelll/filebrowser-master/share"
+	"github.com/shmelll/filebrowser-master-master/files"
+	"github.com/shmelll/filebrowser-master-master/share"
 )
 
 var withHashFile = func(fn handleFunc) handleFunc {

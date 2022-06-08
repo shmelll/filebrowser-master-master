@@ -11,7 +11,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/shmelll/filebrowser-master/runner"
+	"github.com/shmelll/filebrowser-master-master/runner"
 )
 
 const (

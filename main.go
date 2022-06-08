@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/shmelll/filebrowser-master/cmd"
+	"github.com/shmelll/filebrowser-master-master/cmd"
 )
 
 func main() {

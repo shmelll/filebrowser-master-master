@@ -1,10 +1,10 @@
 package storage
 
 import (
-	"github.com/shmelll/filebrowser-master/auth"
-	"github.com/shmelll/filebrowser-master/settings"
-	"github.com/shmelll/filebrowser-master/share"
-	"github.com/shmelll/filebrowser-master/users"
+	"github.com/shmelll/filebrowser-master-master/auth"
+	"github.com/shmelll/filebrowser-master-master/settings"
+	"github.com/shmelll/filebrowser-master-master/share"
+	"github.com/shmelll/filebrowser-master-master/users"
 )
 
 // Storage is a storage powered by a Backend which makes the necessary

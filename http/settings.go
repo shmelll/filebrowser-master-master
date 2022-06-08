@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/shmelll/filebrowser-master/rules"
-	"github.com/shmelll/filebrowser-master/settings"
+	"github.com/shmelll/filebrowser-master-master/rules"
+	"github.com/shmelll/filebrowser-master-master/settings"
 )
 
 type settingsData struct {
